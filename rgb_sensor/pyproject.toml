@@ -1,0 +1,11 @@
+[project]
+name = "rgb-sensor"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "adafruit-circuitpython-ssd1306>=2.12.24",
+    "adafruit-circuitpython-tcs34725>=3.3.29",
+    "pillow>=12.3.0",
+]
